@@ -1,0 +1,111 @@
+#title{
+    Text-align:center;
+    margin:12px;
+    
+  }
+  #description
+  {
+    font-size:20px;
+    text-align:center;
+    font-family:sans-serif;
+    font-weight:100px;
+  
+  }
+  body{
+    color:white;background-image:url(images3.jpg);
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #name,#email,#number{
+   
+    width:50vh;
+    background-color:black;
+    color:white;
+  }
+  #dropdown{
+  width:200px;
+  background-color:black;
+  color:white;
+  
+  }
+  textarea{
+    margin:13px;
+    background-color:black;
+    color:white;
+  }
+  #submit{
+    width:60px;
+    height:30px;
+    margin:13px;
+    font-family:sanserf;
+    border-radius:4px;
+    border-radius:10px;border : 1px solid white;
+  }
+  #container{
+    text-align:center;
+    border:1px solid rgb(44, 41, 41);
+    width:500px;
+    margin:0 auto;
+    border-radius:15px;
+    display:block;
+    background-color: black;
+
+   
+  }
+  p{
+  
+    font-size:20px
+  }
+  #name-label,#email-label{
+    margin-left:-330px;
+   
+  }
+  #number-label{
+    margin-left:-320px;
+  }
+  textarea::-placeholder{
+    color:white;
+  }
+  @media only screen and (max-width:600px)
+  {
+    body{
+      color:white;background-color:black;
+      margin:0 auto;
+    }
+
+      #name,#email,#number{
+        width:35vh;
+        
+        background-color:black;
+        color:white;
+      }
+      #container{
+        width:350px;
+      }
+      #name-label,#email-label{
+        margin-left:-250px;
+       
+      }
+      #number-label{
+        margin-left:-250px;
+      }
+      p{
+  
+        font-size:14px
+      }
+      #title{
+        Text-align:center;
+        margin:6px;
+        
+      }
+      #description
+      {
+        font-size:16px;
+        text-align:center;
+        font-family:sans-serif;
+        font-weight:100px;
+      
+      }
+  }
